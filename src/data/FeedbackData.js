@@ -1,16 +1,18 @@
+import {v4 as uuidv4} from 'uuid';
+
 const FeedbackData = [
   {
-    id: 1,
+    id: uuidv4(),
     rating: 10,
     text: 'Lorem ipsum dolor sit amet consectetur adipisicing elit. In neque rerum eligendi consectetur adipisci nisi, voluptatibus rem tenetur ut impedit explicabo aspernatur quis natus minima!',
   },
   {
-    id: 2,
+    id: uuidv4(),
     rating: 7,
     text: 'Lorem ipsum dolor sit amet consectetur adipisicing elit. In neque rerum eligendi consectetur adipisci nisi, voluptatibus rem tenetur ut impedit explicabo aspernatur quis natus minima!',
   },
   {
-    id: 3,
+    id: uuidv4(),
     rating: 1,
     text: 'Lorem ipsum dolor sit amet consectetur adipisicing elit. In neque rerum eligendi consectetur adipisci nisi, voluptatibus rem tenetur ut impedit explicabo aspernatur quis natus minima!',
   },
